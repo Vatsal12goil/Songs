@@ -1,0 +1,206 @@
+<html>
+<head>
+
+<title>project 3</title>
+
+
+<style>
+body{  
+background-color: black;
+margin: 0;
+font-family: arial;
+color: white;
+}
+logo{
+
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 60px;
+
+}
+
+.container{
+  width:1200px;
+  margin:auto ;
+/*  text-align: center;*/
+
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+.sign-up , .more{
+ padding: 8px 16px;
+ background-color: #A11C1D; 
+ display: inline-block;
+ font-weight: bold;
+}
+.sign-up{
+	position: absolute;
+	right: 0;
+
+}
+
+a.sign-up, a.more{
+	color: black;
+}
+.image{
+
+  background-image: url('img/slide2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.098;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.nav{
+
+	display: flex;
+	padding-block: 30px;
+    place-items: center;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+.nav a{
+
+ padding-inline: 40px;
+
+
+}
+h1{
+	color: red;
+}
+
+p{
+	margin: 0;
+}
+p span{
+
+	color: #A11C1D;
+}
+
+.song-info-container{
+	display: flex;
+	gap: 15px;
+}
+.song-image img{
+	height: 300px;
+	width: 300px;
+}
+.song-info{
+	padding: 15px;
+}
+
+.song-info h1,
+.song-info h2,
+.song-info p{
+	margin: 0px;
+
+}
+.song-button{
+	padding-top: 100px;
+	color: white;
+	display: flex;
+	gap: 30px;
+}
+.play-all{
+	padding: 8px 16px;
+ background-color: #A11C1D; 
+ border: none;
+	border-radius: 8px;
+	display: inline-block;
+
+}
+
+.play-video{
+	padding: 8px 16px;
+ background-color: black; 
+ display: inline-block;
+
+	border-radius: 8px;
+ outline-style: solid;
+}
+audio{
+	padding-top: 35px;
+	width: 750px;
+}
+
+.bottom-heading h1{
+	color: yellowgreen;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	color: #9A4D4C;
+	margin-bottom: 10px;
+	position: absolute;
+	bottom: 0;
+	width: 75%;
+}
+
+.footer a{
+	color: red;
+	padding-inline: 20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="image"></div>
+
+<div class = "container">
+	<div class="nav">
+		<logo>StreamFlowz</logo>
+	   <a href ="home.html">Home</a>
+	   <a href= "entertainment.html">Entertainment</a>
+	   <a href ="PricePlans.html">Price Plans</a>
+	   <a href ="form.html"  class="sign-up">Sign up</a>
+	</div>
+
+
+	 
+
+	 <div class="song-info-container">
+	 		<div class="song-image">
+	 			<img src="img/movie2.jpg">
+	 		</div>
+	 		<div class="song-info">
+	 			<div class="1st">
+	 			<h1>Faded Away</h1>
+	 			<h2>First Album</h2>
+	 			<p>Composed by an author</p>
+
+	 		<div class="song-button">
+	 			<a href ="" class="play-all">Play all</a>
+	 			<a href ="" class="play-video">Play video</a>
+
+	 		  </div>
+	 		</div>
+	 		  <audio src="audio.mp3"  controls="controls"></audio>
+
+	 		</div>
+
+	 </div>
+   
+<div class="bottom-heading">
+ <h1> Behind the Lyrics: </h1>
+<p> Alan Olav Walker is an English-born Norwegian DJ and record producer.In 2015, Walker recieved international acclaim after<br> releasing the single "Faded",which recieved multi-platinum certifications in over 10 countries.
+	
+
+	<div class="footer">
+		<a href="#">Privacy Policy</a>
+		<a href="#">SiteMap</a>
+		<a href="#">&copy; 2020 StreamFlowz Entertainment</a>
+	</div>
+
+</div>
+</body>
+</html>

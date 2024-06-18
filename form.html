@@ -1,0 +1,222 @@
+<html>
+<head>
+
+<title>project 3</title>
+
+<style>
+body{  
+background-color: black;
+margin: 0;
+font-family: arial;
+color: white;
+}
+logo{
+
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 60px;
+
+}
+
+.container{
+  width:1200px;
+  margin:auto ;
+/*  text-align: center;*/
+
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+.sign-up , .more , .box-signup{
+ padding: 8px 20px;
+ background-color: #A11C1D; 
+ display: inline-block;
+ font-weight: bold;
+}
+.sign-up{
+	position: absolute;
+	right: 0;
+
+}
+
+a.sign-up, a.more{
+	color: black;
+}
+.image{
+
+  background-image: url('img/slide2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.098;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.nav{
+
+	display: flex;
+	padding-block: 30px;
+  place-items: center;
+  margin-bottom: 100px;
+  position: relative;
+
+}
+.nav a{
+
+ padding-inline: 40px;
+
+}
+
+p{
+	margin: 0;
+}
+p span{
+
+	color: #A11C1D;
+}
+
+.box{
+
+	background-color: white;
+	color: white;
+	padding: 40px;
+  display: flex;
+  width: 600px;
+  top: 50%;
+	left: 50%;
+	transform: translate(50%,0%);
+	
+}
+
+.box h1{
+	color: red;
+	margin: 0px;
+  
+
+}
+input{
+	display: flex;
+	flex-direction: column;
+	margin-block: 20px;
+	border: none;
+	border-bottom: 1px solid;
+	color: grey;
+	padding: 5px;
+
+}
+
+.box-signup{
+	margin-block: 20px;
+	padding-inline: 50px;
+	background-color: #ff0000;
+}
+
+.box-center{
+	
+  background-color: #ff4000;
+  border-radius: 50%;
+  
+  margin-block: 140px;
+  margin-inline: 30px;
+  
+}
+.or{
+	align-content: center;
+	padding: 10px;
+	height: 25px;
+  width: 25px;
+}
+
+.box-right{
+	margin: 50px;
+	padding-block: 50px; 
+}
+
+.box-right .google{
+
+	background-color: #ff4002;
+	margin-block: 20px;
+	padding-inline: 30px;
+	padding-block: 10px;
+}
+
+.box-right .facebook{
+
+	background-color: #0000ff;
+  padding-inline: 30px;
+  padding-block: 10px; 
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	color: #9A4D4C;
+	margin-bottom: 10px;
+	position: absolute;
+	bottom: 0;
+	width: 75%;
+}
+
+.footer a{
+	color: red;
+	padding-inline: 20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="image"></div>
+
+<div class = "container">
+	<div class="nav">
+		<logo>StreamFlowz</logo>
+	   <a href ="home.html">Home</a>
+	   <a href= "entertainment.html">Entertainment</a>
+	   <a href ="PricePlans.html">Price Plans</a>
+	   <a href ="form.html"  class="sign-up">Sign up</a>
+	</div>
+
+ <div class="box">
+ 	 	<div class="box-left">
+	 	 	<div class="box-heading">
+	 	 			<h1>Sign up</h1>
+	 	 	</div>
+
+ 	 	  <div class="box-content">
+ 	 	  	<form action="mailto: xyx34@gmail.com" method="get">
+ 					<input type ="text" placeholder="Username">
+ 					<input type ="text" placeholder="E-mail">
+ 					<input type ="text" placeholder="Password">
+ 					<input type ="text" placeholder="Retype-Password" >
+ 				</form>
+    	</div>
+    	<div class ="box-signup">SIGNUP</div>
+ 	 	</div>
+ 	 	
+ 	 	<div class="box-center">
+ 	 		<div class="or">OR</div>
+ 	 	</div>
+ 	 	
+ 	 	<div class="box-right">
+ 	 		<a href=""><div class="facebook">Log in Facebook</div></a>
+ 	 		<a href=""><div class="google">Log in with Google+</div></a>
+ 	 	</div>
+
+  </div> <!-- .box end -->
+ 	
+	<div class="footer">
+		<a href="#">Privacy Policy</a>
+		<a href="#">SiteMap</a>
+		<a href="#">&copy; 2020 StreamFlowz Entertainment</a>
+	</div>
+
+</div>
+</body>
+</html>

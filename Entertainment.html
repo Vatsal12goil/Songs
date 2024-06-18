@@ -1,0 +1,234 @@
+<html>
+<head>
+
+<title>project 3</title>
+
+
+<style>
+body{  
+background-color: black;
+margin: 0;
+font-family: arial;
+color: white;
+}
+logo{
+
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 60px;
+
+}
+
+.container{
+  width:1200px;
+  margin:auto ;
+/*  text-align: center;*/
+
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+.sign-up{
+ padding: 8px 16px;
+ background-color: #A11C1D; 
+ display: inline-block;
+ font-weight: bold;
+}
+.sign-up{
+	position: absolute;
+	right: 0;
+
+}
+
+a.sign-up{
+	color: black;
+}
+.image{
+
+  background-image: url('img/slide2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.098;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.nav{
+
+	display: flex;
+	padding-block: 30px;
+  place-items: center;
+  margin-bottom: 100px;
+  position: relative;
+
+}
+.nav a{
+
+ padding-inline: 40px;
+
+
+}
+
+p{
+	margin: 0;
+}
+p span{
+
+	color: #A11C1D;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	color: #9A4D4C;
+	margin-top: 20px;
+	width: 100%;
+
+}
+
+.footer a{
+	color: red;
+	padding-inline: 20px;
+
+}
+h1{
+
+font-size: 25px;
+opacity: 0.25;
+
+
+}
+
+.song-collection{
+	display: flex;
+	padding-block: 30px;
+}
+.song{
+
+	transition: ease 1000ms;
+
+}
+.song:hover{
+	scale: 1.15;
+}
+
+.song img{
+ width: 160px;
+ height: 217px;
+ object-fit: cover;
+ margin-bottom: 20px;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="image"></div>
+
+<div class = "container">
+	<div class="nav">
+		<logo>StreamFlowz</logo>
+	   <a href ="home.html">Home</a>
+	   <a href= "entertainment.html">Entertainment</a>
+	   <a href ="PricePlans.html">Price Plans</a>
+	   <a href ="form.html"  class="sign-up">Sign up</a>
+	</div>
+   <h1> Top charts</h1>
+   <div class="song-collection"> 
+  <a href="page1.html">
+   	<div class="song">  		
+   		<img src="img/movie1.jpg" >
+   		<span>Song 01</span>
+    </div>
+   </a>
+   <a href="page2.html">
+		<div class="song">  		
+   		<img src="img/movie2.jpg" >
+   		<span>Song 02</span>
+    </div>
+  </a>
+  <a href="page3.html">
+    <div class="song">  		
+   		<img src="img/movie3.jpg" >
+   		<span>Song 03</span>
+    </div>
+   </a>
+   <a href="page4.html">
+    <div class="song">  		
+   		<img src="img/movie4.jpg" >
+   		<span>Song 04</span>
+    </div>
+   </a>
+   <a href="page5.html">
+    <div class="song">  		
+   		<img src="img/movie5.jpg" >
+   		<span>Song 05</span>
+    </div>
+  </a>
+  <a href="page6.html">
+    <div class="song">  		
+   		<img src="img/movie6.jpg" style="object-position: -150px 0;">
+   		<span>Song 06</span>
+    </div>
+  </a>
+    </div>
+
+    <hr>
+
+  <h1> Trending songs</h1>
+		<div class="song-collection"> 
+		  <a href="page1.html">
+		   	<div class="song">  		
+		   		<img src="img/movie1.jpg" >
+		   		<span>Song 01</span>
+		    </div>
+		   </a>
+		   <a href="page2.html">
+				<div class="song">  		
+		   		<img src="img/movie2.jpg" >
+		   		<span>Song 02</span>
+		    </div>
+		  </a>
+		  <a href="page3.html">
+		    <div class="song">  		
+		   		<img src="img/movie3.jpg" >
+		   		<span>Song 03</span>
+		    </div>
+		   </a>
+		   <a href="page4.html">
+		    <div class="song">  		
+		   		<img src="img/movie4.jpg" >
+		   		<span>Song 04</span>
+		    </div>
+		   </a>
+		   <a href="page5.html">
+		    <div class="song">  		
+		   		<img src="img/movie5.jpg" >
+		   		<span>Song 05</span>
+		    </div>
+		  </a>
+		  <a href="page6.html">
+		    <div class="song">  		
+		   		<img src="img/movie6.jpg" style="object-position: -150px 0;" >
+		   		<span>Song 06</span>
+		    </div>
+		  </a>
+		</div>
+
+			<div class="footer">
+				<a href="#">Privacy Policy</a>
+				<a href="#">SiteMap</a>
+				<a href="#">&copy; 2020 StreamFlowz Entertainment</a>
+			</div>
+			
+
+</div>
+</body>
+</html>
